@@ -5,4 +5,300 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: auto;
+  gap: 24px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.mothers-day-bg {
+  display: block;
+  background: url("assets/mothersDay.jpeg");
+  min-height: 95vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+}
+
+.text-box {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+}
+
+.mothers-day-heading {
+  color: #1d1d1f;
+  font-size: 48px;
+  line-height: 1.08349;
+  font-weight: 500;
+  letter-spacing: -0.002em;
+  text-align: center;
+  margin: 0px;
+}
+
+.mothers-day-text {
+  font-size: 24px;
+  line-height: 1.16667;
+  font-weight: 400;
+  letter-spacing: 0.009em;
+  text-align: center;
+  margin: 0px;
+}
+
+.btn {
+  background-color: #0171e3;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 50px;
+  width: fit-content;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+.ipad-pro-bg {
+  display: block;
+  background: url("assets/ipadpro.jpeg");
+  min-height: 95vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+}
+
+.ipad-pro-text-box {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+}
+
+.ipad-heading {
+  color: #fff;
+  font-size: 48px;
+  line-height: 1.08349;
+  font-weight: 500;
+  letter-spacing: -0.002em;
+  text-align: center;
+  margin: 0px;
+}
+
+.ipad-text {
+  font-size: 24px;
+  line-height: 1.16667;
+  font-weight: 400;
+  letter-spacing: 0.009em;
+  text-align: center;
+  margin: 0px;
+  color: #fff;
+}
+
+.ipad-grey-text {
+  color: #86868b;
+  font-size: 20px;
+  line-height: 1.16667;
+  font-weight: 400;
+  letter-spacing: 0.009em;
+  text-align: center;
+  margin: 0px;
+}
+
+.btn-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.outline-btn {
+  color: #0171e3;
+  border: 1px solid #0171e3;
+  padding: 12px 24px;
+  border-radius: 50px;
+  width: fit-content;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-top: 12px;
+  background-color: transparent;
+}
+
+.outline-btn:hover {
+  background-color: #0171e3;
+  color: white;
+}
+
+.ipad-air-bg {
+  display: block;
+  background: url("assets/ipadair.jpeg");
+  min-height: 95vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+}
+
+.ipad-air-heading {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+}
+
+.ipad-air-text {
+  font-size: 24px;
+  line-height: 1.16667;
+  font-weight: 400;
+  letter-spacing: 0.009em;
+  text-align: center;
+  margin: 0px;
+  color: #1d1d1f;
+}
+
+.ipad-air-grey-text {
+  color: #4f6369;
+  font-size: 20px;
+  line-height: 1.16667;
+  font-weight: 400;
+  letter-spacing: 0.009em;
+  text-align: center;
+  margin: 0px;
+}
+
+.black-btn {
+  background-color: #1d1d1f;
+  color: #fff;
+}
+
+.outline-black-btn {
+  color: #1d1d1f;
+  background-color: transparent;
+  border: 1px solid #1d1d1f !important;
+}
+
+.outline-black-btn:hover {
+  background-color: #1d1d1f;
+  color: #fff;
+}
+
+.images-flex {
+  width: 100%;
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: calc(50% - 24px);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("assets/relax.png");
+}
+
+.image-2 {
+  background-image: url("assets/15pro.jpeg");
+}
+
+.image-3 {
+  background-image: url("assets/15.jpeg");
+}
+
+.image-4 {
+  background-image: url("assets/macbookair.jpeg");
+}
+
+.image-5 {
+  background-image: url("assets/watch.jpeg");
+}
+
+.image-6 {
+  background-image: url("assets/trade.jpeg");
+}
+
+@media screen and (max-width: 500px) {
+  .mothers-day-bg,
+  .ipad-pro-bg,
+  .ipad-air-bg {
+    min-height: 500px;
+    height: 500px;
+  }
+
+  .ipad-pro-bg {
+    background-image: url("./assets/phone-ipad-pro.jpeg");
+  }
+
+  .text-box,
+  .ipad-pro-text-box {
+    gap: 8px;
+    bottom: 5%;
+    width: 100%;
+  }
+
+  .ipad-pro-text-box {
+    top: 5%;
+    bottom: unset;
+  }
+
+  .mothers-day-heading,
+  .ipad-heading {
+    font-size: 24px;
+  }
+
+  .mothers-day-text,
+  .ipad-text {
+    font-size: 14px;
+  }
+
+  .ipad-grey-text {
+    font-size: 14px;
+  }
+
+  .btn {
+    margin-top: 6px;
+  }
+
+  .images-flex {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .image {
+    width: calc(100% - 16px);
+    height: 500px;
+  }
+
+  .ipad-air-heading {
+    width: 150px;
+  }
 }
